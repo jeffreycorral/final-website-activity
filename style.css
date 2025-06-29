@@ -1,11 +1,80 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 30px;
-}
-
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: blue;
-}
+   * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 40px 0 20px;
+      background: #3a2e2e;
+      color: #fff;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin: 20px 0;
+      text-align: center;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 12px 0;
+    }
+    nav a {
+      color: #3a2e2e;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #d2691e; /* chocolate color for western vibe */
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto 60px;
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    main img {
+      display: block;
+      margin: 0 auto 30px;
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+      object-fit: cover;
+    }
+    main h2 {
+      text-align: center;
+      color: #d2691e;
+      font-weight: 700;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      letter-spacing: 1.2px;
+    }
+    main p {
+      font-size: 1.15rem;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #999;
+      border-top: 1px solid #eee;
+    }
