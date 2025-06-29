@@ -1,0 +1,177 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: #fff8f0;
+  color: #5a4530;
+}
+
+/* Header */
+header {
+  background-color: #d2691e;
+  color: white;
+  padding: 30px 0;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: inherit;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Navigation */
+nav {
+  background: #f5f1e9;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  font-weight: 600;
+  font-family: inherit;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #5a4530;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #d2691e;
+  color: white;
+}
+
+nav a.active {
+  background-color: #d2691e;
+  color: white;
+  font-weight: 700;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 0 auto 30px auto;
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(210, 105, 30, 0.4);
+}
+
+main img {
+  max-width: 350px;
+}
+
+/* Sections */
+section {
+  background: #fff8f0;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(210, 105, 30, 0.2);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.discovery{
+  color:white;
+}
+section h2 {
+  color: #d2691e;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+section p {
+  margin: 10px 0;
+  font-size: 1.15rem;
+  text-align: center;
+}
+
+section a {
+  color: #d2691e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+.about-note {
+  margin-top: 40px;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #7a5a34;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.3rem;
+  text-align: center;
+  font-style: italic;
+  color: #7a5a34;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #999;
+  font-size: 0.9rem;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+  font-family: inherit;
+}
+
+/* Product list and cards */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(210, 105, 30, 0.2);
+  padding: 20px;
+  max-width: 280px;
+  flex: 1 1 280px;
+  text-align: center;
+}
+
+.product-card h2 {
+  color: #d2691e;
+  margin-bottom: 12px;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #5a4530;
+  line-height: 1.4;
+}
+
+/* Main container */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: inherit;
+  line-height: 1.6;
+  padding: 0 20px;
+}
