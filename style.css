@@ -1,104 +1,83 @@
-   * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9f9f9;
-      margin: 0;
-      padding: 0 20px;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      padding: 40px 0 20px;
-      background: #3a2e2e;
-      color: #fff;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    header h1 {
-      margin: 0;
-      font-weight: 700;
-      font-size: 2.8rem;
-      letter-spacing: 1px;
-  nav {
-      background-color: #fff;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 15px 0;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      font-family: 'Poppins', sans-serif;
-      border-radius: 10px;
-      max-width: 700px;
-      margin: 20px auto;
-    }
-    nav a {
-      position: relative;
-      text-decoration: none;
-      color: #4a4a4a;
-      font-weight: 600;
-      font-size: 1.1rem;
-      padding: 8px 12px;
-      transition: color 0.3s ease;
-    }
-    nav a::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 3px;
-      bottom: 0;
-      left: 0;
-      background-color: #ff6600;
-      transition: width 0.3s ease;
-      border-radius: 2px;
-    }
-    nav a:hover {
-      color: #ff6600;
-    }
-    nav a:hover::after {
-      width: 100%;
-    }
-    nav a.active {
-      color: #ff6600;
-      font-weight: 700;
-    }
-    nav a.active::after {
-      width: 100%;
-    }
-    main {
-      max-width: 800px;
-      margin: 0 auto 60px;
-      background: #fff;
-      padding: 30px 40px;
-      border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-    main img {
-      display: block;
-      margin: 0 auto 30px;
-      max-width: 300px;
-      border-radius: 15px;
-      box-shadow: 0 5px 10px rgba(0,0,0,0.15);
-      object-fit: cover;
-    }
-    main h2 {
-      text-align: center;
-      color: #d2691e;
-      font-weight: 700;
-      margin-bottom: 20px;
-      font-size: 2rem;
-      letter-spacing: 1.2px;
-    }
-    main p {
-      font-size: 1.15rem;
-      margin-bottom: 15px;
-      text-align: center;
-    }
-    footer {
-      text-align: center;
-      padding: 20px 0;
-      font-size: 0.9rem;
-      color: #999;
-      border-top: 1px solid #eee;
-    }
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px;
+        background-color: #fff8f0;
+        color: #5a4530;
+      }
+      header {
+        text-align: center;
+        background-color: #d2691e;
+        color: white;
+        padding: 30px 0;
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 3rem;
+        letter-spacing: 2px;
+      }
+      nav {
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 600;
+      }
+      nav a {
+        color: #5a4530;
+        text-decoration: none;
+        margin: 0 15px;
+        padding: 8px 14px;
+        border-radius: 6px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      nav a:hover {
+        background-color: #d2691e;
+        color: white;
+      }
+      nav a.active {
+        background-color: #d2691e;
+        color: white;
+        font-weight: 700;
+      }
+      img {
+        display: block;
+        margin: 0 auto 30px auto;
+        max-width: 300px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(210, 105, 30, 0.4);
+      }
+      section {
+        background: white;
+        padding: 30px 25px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(210, 105, 30, 0.2);
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+      section h2 {
+        color: #d2691e;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 2rem;
+      }
+      section p {
+        margin: 10px 0;
+      }
+      section a {
+        color: #d2691e;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      section a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        text-align: center;
+        margin-top: 50px;
+        color: #999;
+        font-size: 0.9rem;
+        border-top: 1px solid #eee;
+        padding: 15px 0;
+      }
