@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fff8e1;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+    
+    </style>
 </head>
 <body>
   <header>
-    <h1>Contact Us</h1>
+    Contact Us
   </header>
 
   <nav>
@@ -19,31 +29,30 @@
 
   <img src="images/logo.jpg" alt="Corral Logo" />
 
-  <section style="background: #f9f9f9; padding: 20px; border-radius: 8px; max-width: 400px; font-family: Arial, sans-serif; margin: 40px auto; text-align: center;">
-    <h2 style="color: #b35c00; border-bottom: 2px solid #b35c00; padding-bottom: 6px; margin-bottom: 16px;">Get in Touch</h2>
+  <section>
+    <h2>Get in Touch</h2>
     
-    <p><strong>Phone:</strong> <a href="tel:+966556210821" style="color: #2a5d84; text-decoration: none;">(+966) 556-210-821 (KSA)</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+966556210821">(+966) 556-210-821 (KSA)</a></p>
     
-    <p><strong>Email:</strong> <a href="mailto:jeffreycorral@gmail.com" style="color: #2a5d84; text-decoration: underline;">jeffreycorral@gmail.com</a></p>
+    <p><strong>Email:</strong> <a href="mailto:jeffreycorral@gmail.com">jeffreycorral@gmail.com</a></p>
     
     <p><strong>Address:</strong><br>20-1 Bukal II, Brgy Dolores,<br>Taytay Rizal, Philippines</p>
 
-    <!-- Contact Form -->
-    <form action="#" method="post" style="margin-top: 20px; text-align: left;">
-      <label for="name" style="display: block; margin-bottom: 6px;"><strong>Name:</strong></label>
-      <input type="text" id="name" name="name" placeholder="Your full name" required style="width: 100%; padding: 8px; margin-bottom: 12px; border-radius: 4px; border: 1px solid #ccc;" />
+    <form action="#" method="post" novalidate>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
 
-      <label for="email" style="display: block; margin-bottom: 6px;"><strong>Email:</strong></label>
-      <input type="email" id="email" name="email" placeholder="Your email address" required style="width: 100%; padding: 8px; margin-bottom: 12px; border-radius: 4px; border: 1px solid #ccc;" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email address" required />
 
-      <label for="message" style="display: block; margin-bottom: 6px;"><strong>Message:</strong></label>
-      <textarea id="message" name="message" placeholder="Write your message here" required rows="4" style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #ccc; resize: vertical;"></textarea>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here" rows="4" required></textarea>
 
-      <button type="submit" style="background-color: #b35c00; color: white; border: none; padding: 10px 16px; border-radius: 4px; cursor: pointer; font-weight: bold; margin-top: 10px; width: 100%;">Send Message</button>
+      <button type="submit">Send Message</button>
     </form>
   </section>
 
-  <footer style="text-align: center; margin-top: 40px;">
+  <footer>
     &copy; 2025 Corral. All rights reserved.
   </footer>
 </body>
